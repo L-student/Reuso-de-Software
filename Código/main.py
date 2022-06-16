@@ -27,10 +27,10 @@ def confirmation():
     tela3.label_5.show()
 #Configuração de telas
 app = QtWidgets.QApplication([])
-tela1 = uic.loadUi("Page1.ui")
-tela2 = uic.loadUi("Page3.ui")
-tela3 = uic.loadUi("Page2.ui")
-tela4 = uic.loadUi("Page4.ui")
+tela1 = uic.loadUi("Código\Page1.ui")
+tela2 = uic.loadUi("Código\Page3.ui")
+tela3 = uic.loadUi("Código\Page2.ui")
+tela4 = uic.loadUi("Código\Page4.ui")
 
 #Tornar funcional a página 1
 tela1.pushButton.clicked.connect(initial)
